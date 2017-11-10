@@ -21,6 +21,13 @@ public class PTra03_05 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
 
+		if (num >= 75) {
+				System.out.println("雨が降る確率が高いです");
+		}else if (num >= 30 && num <=74 ) {
+			System.out.println("雨が振るかもしれないです");
+		}else if (num < 30) {
+			System.out.println("雨はまず降らないでしょう");
+		}
 		//---------------------ここから本題-----------------------
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
