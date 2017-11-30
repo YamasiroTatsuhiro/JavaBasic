@@ -28,18 +28,16 @@ public class PTra03_08 {
 		switch(num) {
 
 		 case 1:
-
-			money= money -150;
-			
-			
+			money = money - 150;
+			break;
 
 		 case 2:
-			 money= money -160;
-			
+			money = money - 160;
+			break;
 
 		 case 3:
-			 money= money -200;
-			
+			money = money - 200;
+			break;
 		}
 		System.out.println(money);
 		//---------------------ここから本題-----------------------
